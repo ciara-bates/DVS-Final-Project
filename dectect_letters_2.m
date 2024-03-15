@@ -164,7 +164,7 @@ for i = 1:size(orderedBBoxes, 1)
     % Preprocess ROI (e.g., resize, binarize, etc.)
     % Example: resize ROI to a fixed size (e.g., 28x28 pixels) for character recognition
     roi = imresize(roi, [28, 28]);
-    roi = imbinarize(roi); % Binarize the image
+    %roi = imbinarize(roi); % Binarize the image
     
     % Store preprocessed ROI
     letterROIs{i} = roi;
