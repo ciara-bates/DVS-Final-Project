@@ -4,7 +4,7 @@
 In this project, we were able to identify the numbers and letters of license plates from images of cars, using image processing tools such as segmentation and two character recognition methods.
 
 ## Running the code
-To test our code, simply download the project files and run PlateDetection.mlx in MatLab. If you wish, you can change the image name in PlateDetection.mlx with another image from the car_img folder, to process another license plate.
+To test our code, simply download the project files and run PlateDetection.mlx in MatLab. Make sure you are using the most recent version of MatLab as the OCR Recognition might not work otherwise. If you wish, you can change the image name in PlateDetection.mlx with another image from the car_img folder, to process another license plate.
 
 ### Example
 **Original Image**
