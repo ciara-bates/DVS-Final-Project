@@ -1,1 +1,8 @@
+declaring what you personally have contributed to the project, a reflection section on what you have learned, reasons for your design decisions, mistakes you have made and what you would do differently if you were to do this again.
 
+**Personal Contribution**
+In this project, we worked mostly together, however, I predominantly focused on identifying the location of the license plate in the image, generalising the code to operate with different images and attempted other methods of character recognition.
+
+**Reflection**
+I have gained valuable insights into the difficulties regarding image processing in real world scenarios, and the importance of positioning the camera prior to the picture in order to simplify consequent image processing.
+I have also gained an understanding about the order in which image processing should be done, in order to obtain ideal results. 
