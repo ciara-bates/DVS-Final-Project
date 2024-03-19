@@ -6,7 +6,12 @@ rec=[ ];
 
 for n=1:length(NewTemplates)
     cor=corr2(NewTemplates{1,n},snap); 
+    
+    letterImage = imresize(letterImage,size(candidateImage{t,2}));
+    distance(t) = abs(sum((letterImage-double(candidateImage{t,2})).^2,"all"));
+    
     rec=[rec cor]; 
+    
 end
 
 ind=find(rec==max(rec));
